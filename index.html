@@ -1,44 +1,227 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Conheça nossos lugares favoritos em Paranaguá, escolhidos por Julia e Igor.">
+
+    <title>Nossos Lugares Favoritos | Paranaguá - PR</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <title>Nossos lugares favoritos em Paranaguá-PR</title>
 </head>
+
 <body>
-    <h1>NOSSOS LUGARES FAVORITOS EM PARANAGUÁ-PR</h1>
 
-    <div class="'Container"></div>
-        <div class="lugar-igor"> 
-            <h2>Igor - Centro Histórico</h2>
-            <img src="imagens/paranagua.jpg" alt="Imagem da baia de Paranaguá que fica no Centro Histórico">
-            
-            <p>
-                O Centro Histórico de Paranaguá não se limita a um único ponto, mas abrange uma área que reúne parte importante da história e da identidade da cidade. Suas ruas e construções antigas convivem com igrejas, museus, teatros, cafeterias, restaurantes e outros espaços que tornam a região um lugar cheio de vida e personalidade.
-            </p>
-            
-            <p>
-                Caminhar pelo Centro Histórico é entrar em contato com o passado e sentir orgulho da riqueza cultural de Paranaguá. Sua arquitetura marcante, suas histórias e sua atmosfera tranquila tornam esse lugar especial para quem aprecia a beleza e as tradições da cidade.
-            </p>
-        </div>
+    <header class="topo">
+        <a href="#" class="logo">nossos lugares<span>.</span></a>
 
-        <div class="lugar-julia"> 
-            <h2>Julia - Praça Mário Roque</h2>
-            <img src="imagens/praca-mario-roque-paranagua.jpg" alt="Imagem da Praça Mario Roque em Paranaguá">
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#lugares">Lugares favoritos</a>
+            <a href="#sobre">Sobre o projeto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-conteudo">
+
+                <span class="subtitulo">
+                    UM OLHAR DIFERENTE SOBRE A NOSSA CIDADE
+                </span>
+
+                <h1>
+                    Paranaguá,<br>
+                    <span>do nosso jeito.</span>
+                </h1>
+
+                <p>
+                    Lugares que gostamos, histórias que descobrimos
+                    e momentos que fazem parte da nossa conexão com
+                    Paranaguá.
+                </p>
+
+                <a href="#lugares" class="botao">
+                    Descubra nossos lugares
+                    <span>↓</span>
+                </a>
+
+            </div>
+
+            <div class="hero-detalhe">
+                <span class="coracao">♥</span>
+                <p>Julia & Igor</p>
+                <small>Paranaguá — Paraná</small>
+            </div>
+
+        </section>
+
+
+        <section class="lugares" id="lugares">
+
+            <div class="secao-cabecalho">
+
+                <div>
+                    <span class="subtitulo">NOSSAS ESCOLHAS</span>
+
+                    <h2>Lugares especiais</h2>
+
+                    <p class="introducao">
+                        Cada um tem seus favoritos. Aqui, compartilhamos
+                        um pouquinho dos lugares que escolhemos na cidade.
+                    </p>
+                </div>
+
+                <span class="numero-lugares">01 — 02</span>
+
+            </div>
+
+
+            <div class="container">
+
+                <article class="cartao">
+
+                    <div class="imagem-container">
+
+                        <img
+                            src="imagens/paranagua.jpg"
+                            alt="Paisagem da baía de Paranaguá, na região do Centro Histórico"
+                            loading="lazy"
+                        >
+
+                        <span class="etiqueta">ESCOLHA DO IGOR</span>
+
+                    </div>
+
+                    <div class="cartao-conteudo">
+
+                        <span class="categoria">HISTÓRIA & CULTURA</span>
+
+                        <h3>Centro Histórico</h3>
+
+                        <p>
+                            O Centro Histórico de Paranaguá não se limita
+                            a um único ponto, mas abrange uma área que
+                            reúne parte importante da história e da
+                            identidade da cidade. Suas ruas e construções
+                            antigas convivem com igrejas, museus, teatros,
+                            cafeterias, restaurantes e outros espaços que
+                            tornam a região um lugar cheio de vida e
+                            personalidade.
+                        </p>
+
+                        <p>
+                            Caminhar pelo Centro Histórico é entrar em
+                            contato com o passado e sentir orgulho da
+                            riqueza cultural de Paranaguá. Sua arquitetura
+                            marcante, suas histórias e sua atmosfera
+                            tranquila tornam esse lugar especial para
+                            quem aprecia a beleza e as tradições da cidade.
+                        </p>
+
+                        <div class="cartao-rodape">
+                            <span>📍 Paranaguá, PR</span>
+                            <span class="assinatura">Por Igor ♥</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="cartao">
+
+                    <div class="imagem-container">
+
+                        <img
+                            src="imagens/praca-mario-roque-paranagua.jpg"
+                            alt="Praça Mário Roque, em Paranaguá"
+                            loading="lazy"
+                        >
+
+                        <span class="etiqueta">ESCOLHA DA JULIA</span>
+
+                    </div>
+
+                    <div class="cartao-conteudo">
+
+                        <span class="categoria">LAZER & CONVIVÊNCIA</span>
+
+                        <h3>Praça Mário Roque</h3>
+
+                        <p>
+                            Localizada na região central de Paranaguá,
+                            a Praça Mário Roque é um espaço dedicado ao
+                            lazer, ao descanso e à convivência. Após sua
+                            recente reforma, o local passou a contar com
+                            uma estrutura preparada para receber shows
+                            e outros eventos, ampliando suas possibilidades
+                            de uso pela população.
+                        </p>
+
+                        <p>
+                            Além de ser um ponto de encontro e
+                            entretenimento, a praça oferece um ambiente
+                            agradável para relaxar e apreciar uma das
+                            vistas mais bonitas da cidade. É um lugar
+                            que combina a movimentação urbana com
+                            momentos de tranquilidade.
+                        </p>
+
+                        <div class="cartao-rodape">
+                            <span>📍 Paranaguá, PR</span>
+                            <span class="assinatura">Por Julia ♥</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section class="sobre" id="sobre">
+
+            <span class="subtitulo">UM POUCO SOBRE NÓS</span>
+
+            <h2>Dois olhares, uma mesma cidade.</h2>
 
             <p>
-                Localizada na região central de Paranaguá, a Praça Mário Roque é um espaço dedicado ao lazer, ao descanso e à convivência. Após sua recente reforma, o local passou a contar com uma estrutura preparada para receber shows e outros eventos, ampliando suas possibilidades de uso pela população.
+                Este projeto nasceu da ideia de compartilhar nossos
+                lugares favoritos em Paranaguá. Cada escolha representa
+                um olhar diferente sobre a cidade e mostra que até os
+                lugares mais conhecidos podem ter um significado especial
+                para cada pessoa.
             </p>
 
-            <p>
-                Além de ser um ponto de encontro e entretenimento, a praça oferece um ambiente agradável para relaxar e apreciar uma das vistas mais bonitas da cidade. É um lugar que combina a movimentação urbana com momentos de tranquilidade, transmitindo uma sensação de paz e harmonia.
-            </p>
-        </div>
-    </div>
+            <div class="sobre-assinatura">
+                Feito com carinho por Julia & Igor
+                <span>♥</span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Paranaguá, PR · Um projeto de Julia & Igor</p>
+        <span>Feito com ♥</span>
+    </footer>
+
 </body>
-<footer>
-    <p>Feito com ❤️ por Igor e Julia | Paranaguá - PR</p>
-</footer>
+
 </html>
