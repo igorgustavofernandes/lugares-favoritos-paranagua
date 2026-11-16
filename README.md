@@ -4,6 +4,8 @@ Projeto acadêmico desenvolvido para apresentar lugares especiais de Paranaguá 
 
 O site reúne duas escolhas — Centro Histórico e Praça Mário Roque — em uma apresentação visual com navegação por seções, imagens e descrições.
 
+![Preview do projeto](./imagens/preview.png)
+
 ## Tecnologias
 
 - HTML5
